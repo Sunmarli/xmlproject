@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<arvutid>
+	<arvuti>
+		<nimi> Lauaarvuti</nimi>
+		<hind>200 euro</hind>
+		<firma>HP</firma>
+		<lisad>
+			<monitor>
+				<nimetus>Suur monitor</nimetus>
+				<hind>150 eur</hind>
+			</monitor>
+			<hiir>
+				<nimetus>HP hiir</nimetus>
+			</hiir>
+		</lisad>
+	</arvuti>
+	<arvuti>
+		<nimi> Tahvelarvuti</nimi>
+		<hind>500 euro</hind>
+		<firma>Apple</firma>
+		<lisad>
+			<monitor>
+				<nimetus>LSD monitor</nimetus>
+				<hind>400 eur</hind>
+			</monitor>
+			<hiir>
+				<nimetus>Razor hiir</nimetus>
+			</hiir>
+		</lisad>
+	</arvuti>
+	<arvuti>
+		<nimi> Sulearvuti</nimi>
+		<hind>700 euro</hind>
+		<firma>Lenovo</firma>
+		<lisad>
+			<monitor>
+				<nimetus>Philips 271V8LA</nimetus>
+				<hind>120 eur</hind>
+			</monitor>
+			<hiir>
+				<nimetus>HP hiir</nimetus>
+			</hiir>
+		</lisad>
+	</arvuti>
+	<arvuti>
+		<nimi> Sulearvuti</nimi>
+		<hind>900 euro</hind>
+		<firma>Apple</firma>
+		<lisad>
+			<monitor>
+				<nimetus>Crystall monitor</nimetus>
+				<hind>800 eur</hind>
+			</monitor>
+			<hiir>
+				<nimetus>Apple hiir</nimetus>
+			</hiir>
+		</lisad>
+	</arvuti>
+	<arvuti>
+		<nimi> Lauaarvuti</nimi>
+		<hind>350 euro</hind>
+		<firma>Acer</firma>
+		<lisad>
+			<monitor>
+				<nimetus>LG monitor</nimetus>
+				<hind>360 eur</hind>
+			</monitor>
+			<hiir>
+				<nimetus>HP hiir</nimetus>
+			</hiir>
+		</lisad>
+	</arvuti>
+	<arvuti>
+		<nimi> Sulearvuti</nimi>
+		<hind>650 euro</hind>
+		<firma>Acer</firma>
+		<lisad>
+			<monitor>
+				<nimetus> Full HD IPSekraan</nimetus>
+				<hind>400 eur</hind>
+			</monitor>
+			<hiir>
+				<nimetus>HP hiir</nimetus>
+			</hiir>
+		</lisad>
+	</arvuti>
+</arvutid>

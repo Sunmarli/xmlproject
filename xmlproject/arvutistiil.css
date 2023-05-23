@@ -1,0 +1,26 @@
+﻿body {
+}
+
+thead {
+    background-color: forestgreen;
+    color: white;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
