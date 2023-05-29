@@ -33,7 +33,8 @@
 		</ol>
 		<br/>
 		<strong>If tingimus: näidata kõik tooded  HP hiirtega. </strong>
-		<strong>If tingimus: näidata kõik tooded  ku arvutihind suurem kui  300 eur. </strong>
+		
+		
 		<br/>
 		<table>
 			<thead>
@@ -49,20 +50,26 @@
 			<tbody>
 				<xsl:for-each select="arvutid/arvuti">
 					<xsl:sort select="lisad/hiir/nimetus"/>
-					<xsl:sort select="hind"/>
+					
 					<xsl:if test="contains(lisad/hiir/nimetus, 'HP')">
-
 							<tr>
 							<td>
 								<xsl:value-of select="nimi"/>
 							</td>
-							<td>
-								<xsl:if test="arvuti/hind &gt; 300">
-									<span style="color:red">
-										<xsl:value-of select="hind"/>
-									</span>
-								</xsl:if>
-							</td>
+								<td>
+									
+										<xsl:choose>
+											<xsl:when test="hind &gt; 300">
+												<span style="color: red">
+													<xsl:value-of select="hind"/>
+												</span>
+											</xsl:when>
+											<xsl:otherwise>
+												<xsl:value-of select="hind"/>
+											</xsl:otherwise>
+										</xsl:choose>
+									
+								</td>
 							<td>
 								<xsl:value-of select="firma"/>
 							</td>
@@ -77,7 +84,8 @@
 					
 							</td>
 							</tr>
-					</xsl:if>
+						
+						</xsl:if>
 				
 				</xsl:for-each>
 			</tbody>
